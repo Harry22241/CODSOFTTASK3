@@ -1,0 +1,154 @@
+* {
+    margin: 0;
+    padding: 0;
+  }
+  
+  body {
+    font-family: 'Open Sans', 'Montserrat', sans-serif;
+    background-color: #232323;
+  }
+  
+  #container {
+    font-family: 'Open Sans', 'Montserrat', sans-serif;
+    font-weight: bold;
+    width: 1500px;
+    height: 850px;
+    background-image: linear-gradient(rgba(0, 0, 0, 0.1), rgba(0, 0, 0, 0.2)), url(images/BG.jpg);
+    margin: 20px auto;
+    position: relative;
+  }
+  
+  #calculator {
+    width: 320px;
+    height: 520px;
+    background-color: rgb(117, 154, 185);
+    
+    margin: 0 auto;
+    top: 20px;
+    position: relative;
+    border-radius: 7px;
+    box-shadow: 0 4px 8px 0 rgba(0, 0, 0, 0.2), 0 6px 20px 0 rgba(0, 0, 0, 0.2);
+  }
+  
+  #result {
+    height: 120px;
+  }
+  
+  #history {
+    text-align: right;
+    height: 20px;
+    margin: 5px 20px;
+    padding-top: 20px;
+    font-size: 15px;
+    color: #919191;
+  
+  }
+  
+  #output {
+    text-align: right;
+    height: 60px;
+    margin: 5px 10px;
+    font-size: 30px;
+  
+  }
+  
+  #keyboard {
+    height: 400px;
+    padding-left: 15px;
+  }
+  
+  .operator,
+  .number {
+    width: 50px;
+    height: 50px;
+    margin: 10px;
+    border-width: 0;
+    border-radius: 50%;
+    font-size: 15px;
+    color: rgb(42, 72, 90);
+    font-weight: bold;
+    cursor: pointer;
+  }
+  
+  #zero {
+    width: 125px;
+    height: 50px;
+    border: 0;
+    border-radius: 10px;
+  }
+  
+  #equal {
+    height: 125px;
+    width: 50px;
+    border: 0;
+    border-radius: 10px;
+  }
+  
+  .number {
+    background-color: rgb(180, 188, 196);
+  
+  
+    font-family: 'Open Sans', sans-serif;
+  }
+  
+  #clear,
+  #backspace,
+  #divide,
+  #zero {
+    background-color: aliceblue;
+  }
+  
+  .operator:focus,
+  .number:focus {
+    outline: 0;
+  }
+  
+  .operator:active,
+  .number:active {
+    font-size: 20px;
+  }
+
+  #clear {
+background-color: rgb(144, 189, 135);
+
+  }
+
+  #zero {
+    background-color: rgb(196, 109, 152);
+
+  }
+
+
+ #backspace {
+    background-color: rgb(202, 224, 58);
+ }
+
+
+  #divide {
+background-color: #b9a2a2;
+  }
+  
+  #multiply {
+    background-color: #20b2aa;
+  }
+  
+  #add {
+    background-color: #ffa500;
+  }
+  
+  #subtract {
+    background-color: #f08080;
+  }
+  
+  #equal {
+    background-color: #9477af;
+  }
+  
+  #divide {
+    font-size: 20px;
+  }
+  
+  #divide:active {
+    font-size: 25px;
+  }
+
